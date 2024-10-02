@@ -4,6 +4,7 @@ points = 0
 
 
 
+
 while points < 100:
     a = random.randint(1, 6)
 
