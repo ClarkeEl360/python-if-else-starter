@@ -16,7 +16,7 @@
 ```python
 # Abraham Lincoln
 # 20 SEP 20XX
-# Simple Math #2
+# If-Else Statements 
 ```
 
 ### Coding Tasks
@@ -42,9 +42,23 @@
 
 #### Task 4
 
+- Start by creating a Python list of vowels, like so:
+
+```python
+# A Python list needs a name, usually in plural form
+# Rules for naming lists are the same as the rules for naming variables
+# Use a pair of square brackets to mark the beginning and end of your Python list
+vowels = ['a', 'e', 'i', 'o', 'u']
+```
+
 - Prompt the user to enter a letter of the alphabet
 - Apply the `lower()` string method to the prompt (from Step 1 above)
-- Using the `in` membership operator, write an if-else statement that checks whether the letter the user entered is a vowel 
+
+```python
+# The lower ( ) method converts the user's input to all lowercase characters
+letter = input('Please enter a letter of the alphabet:\n').lower()
+```
+- [Using the `in` membership operator (see Method 3 in the example)](https://www.tutorialspoint.com/how-does-in-operator-work-on-list-in-python), write an if-else statement that checks whether the letter the user entered is a vowel 
 - If the letter IS a vowel, tell the user that the letter is indeed a vowel
 - Otherwise, tell the user the letter they entered is a consonant
 
